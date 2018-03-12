@@ -119,7 +119,7 @@ void ledToggle(void)
 	// LED values - 2=RED, 4=BLUE, 8=GREEN
     while(1)
     {
-        Semaphore_pend (LEDSem,30);
+        Semaphore_pend (LEDSem,BIOS_WAIT_FOREVER);
         if(GPIOPinRead(GPIO_PORTF_BASE, GPIO_PIN_2))
             {
             GPIOPinWrite(GPIO_PORTF_BASE, GPIO_PIN_1|GPIO_PIN_2|GPIO_PIN_3, 0);

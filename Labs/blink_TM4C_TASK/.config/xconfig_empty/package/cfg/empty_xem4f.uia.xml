@@ -1073,10 +1073,10 @@
          <Multicore_Event_Correlation_Caption>Enable &quot;Multicore Event Correlation&quot;</Multicore_Event_Correlation_Caption>
          <Task_Context>true</Task_Context>
          <Task_Context_Caption> </Task_Context_Caption>
-         <HWI_Context>true</HWI_Context>
-         <HWI_Context_Caption> </HWI_Context_Caption>
-         <SWI_Context>false</SWI_Context>
-         <SWI_Context_Caption>Enable &quot;RTOS Execution Analysis&quot; - &quot;Swi&quot;</SWI_Context_Caption>
+         <HWI_Context>false</HWI_Context>
+         <HWI_Context_Caption>Enable &quot;RTOS Execution Analysis&quot; - &quot;Hwi&quot;</HWI_Context_Caption>
+         <SWI_Context>true</SWI_Context>
+         <SWI_Context_Caption> </SWI_Context_Caption>
          <Semaphores>true</Semaphores>
          <Semaphores_Caption> </Semaphores_Caption>
          <CPU_Load>true</CPU_Load>
@@ -1113,14 +1113,14 @@
          <numCores>1</numCores>
       </taskLogger>
       <hwiLogger>
+         <instance>null</instance>
+         <name>null</name>
+      </hwiLogger>
+      <swiLogger>
          <instance>ti.uia.loggers.LoggerStopMode.Instance#2</instance>
          <name>SYSBIOS System Logger</name>
          <sizeInMAUs>0</sizeInMAUs>
          <numCores>1</numCores>
-      </hwiLogger>
-      <swiLogger>
-         <instance>null</instance>
-         <name>null</name>
       </swiLogger>
       <semaphoreLogger>
          <instance>ti.uia.loggers.LoggerStopMode.Instance#2</instance>

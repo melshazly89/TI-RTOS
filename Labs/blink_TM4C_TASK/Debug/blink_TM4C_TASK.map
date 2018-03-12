@@ -1,7 +1,7 @@
 ******************************************************************************
                   TI ARM Linker PC v16.9.6                     
 ******************************************************************************
->> Linked Sun Mar 11 12:49:57 2018
+>> Linked Mon Mar 12 10:29:39 2018
 
 OUTPUT FILE NAME:   <blink_TM4C_TASK.out>
 ENTRY POINT SYMBOL: "_c_int00"  address: 00004a41
@@ -85,8 +85,7 @@ section   page    origin      length       input sections
                   00002980    000000f0     driverlib.lib : sysctl.obj (.text:SysCtlClockSet)
                   00002a70    000000e8     empty_pem4f.oem4f (.text:ti_uia_loggers_LoggerStopMode_write1__E)
                   00002b58    000000e8     empty_pem4f.oem4f (.text:ti_uia_loggers_LoggerStopMode_write2__E)
-                  00002c40    000000dc     main.obj (.text:ledToggle)
-                  00002d1c    00000004     empty_pem4f.oem4f (.text:ti_uia_loggers_LoggerStopMode_getFilterLevel__E)
+                  00002c40    000000e0     main.obj (.text:ledToggle)
                   00002d20    000000d8     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_family_arm_lm4_TimestampProvider_get32__E)
                   00002df8    000000d8     empty_pem4f.oem4f (.text:ti_uia_loggers_LoggerStopMode_write0__E)
                   00002ed0    000000d0     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_family_arm_m3_Hwi_Module_startup__E)
@@ -94,36 +93,36 @@ section   page    origin      length       input sections
                   0000306c    000000cc                                 : HeapStd.oem4f (.text:xdc_runtime_HeapStd_Instance_init__E)
                   00003138    000000c8     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_knl_Task_exit__E)
                   00003200    000000c4                   : BIOS.obj (.text:ti_sysbios_utils_Load_logLoads__I)
-                  000032c4    00000004     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_getInstanceId__E)
+                  000032c4    00000004     empty_pem4f.oem4f (.text:ti_uia_loggers_LoggerStopMode_getFilterLevel__E)
                   000032c8    000000bc     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_family_arm_m3_Hwi_excDebugMon__I)
-                  00003384    00000004     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_getMaxLength__E)
+                  00003384    00000004     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_getInstanceId__E)
                   00003388    000000bc     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_family_arm_m3_Hwi_excHardFault__I)
-                  00003444    00000004     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_getPriority__E)
+                  00003444    00000004     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_getMaxLength__E)
                   00003448    000000bc     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_knl_Task_unblockI__E)
-                  00003504    00000004     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_getTransferType__E)
+                  00003504    00000004     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_getPriority__E)
                   00003508    000000b4     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_gates_GateMutex_enter__E)
-                  000035bc    00000004     ti.targets.arm.rtsarm.aem4f : Error.oem4f (.text:xdc_runtime_Error_getSite__E)
+                  000035bc    00000004     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_getTransferType__E)
                   000035c0    000000b4     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_knl_Task_checkStacks__E)
-                  00003674    00000004     ti.targets.arm.rtsarm.aem4f : HeapStd.oem4f (.text:xdc_runtime_HeapStd_isBlocking__E)
+                  00003674    00000004     ti.targets.arm.rtsarm.aem4f : Error.oem4f (.text:xdc_runtime_Error_getSite__E)
                   00003678    000000b0     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_utils_Load_idleFxn__E)
                   00003728    000000b0                   : BIOS.obj (.text:ti_sysbios_utils_Load_updateLoads__E)
                   000037d8    000000ac                   : BIOS.obj (.text:ti_sysbios_family_arm_lm4_Timer_enableTiva__I)
-                  00003884    00000004     empty_pem4f.oem4f (.text:xdc_runtime_System_Module_GateProxy_enter__E)
+                  00003884    00000004     ti.targets.arm.rtsarm.aem4f : HeapStd.oem4f (.text:xdc_runtime_HeapStd_isBlocking__E)
                   00003888    000000ac     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_knl_Swi_post__E)
-                  00003934    00000004     empty_pem4f.oem4f (.text:xdc_runtime_System_Module_GateProxy_leave__E)
+                  00003934    00000004     empty_pem4f.oem4f (.text:xdc_runtime_System_Module_GateProxy_enter__E)
                   00003938    000000a8     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_family_arm_lm4_Timer_enableTimers__I)
                   000039e0    000000a8                   : BIOS.obj (.text:ti_sysbios_knl_Task_blockI__E)
                   00003a88    000000a8     ti.targets.arm.rtsarm.aem4f : HeapStd.oem4f (.text:xdc_runtime_HeapStd_free__E)
                   00003b30    000000a0     auto_init.aem4f : auto_init.oem4f (.text)
                   00003bd0    000000a0     ti.targets.arm.rtsarm.aem4f : Text.oem4f (.text:xdc_runtime_Text_putMod__E)
                   00003c70    0000009c     rtsv7M4_T_le_v4SPD16_eabi.lib : memcpy_t2.obj (.text)
-                  00003d0c    00000004     ti.targets.arm.rtsarm.aem4f : System.oem4f (.text:xdc_runtime_System_aprintf_va__F)
+                  00003d0c    00000004     empty_pem4f.oem4f (.text:xdc_runtime_System_Module_GateProxy_leave__E)
                   00003d10    0000009c     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_knl_Semaphore_Instance_init__E)
                   00003dac    0000009a     ti.targets.arm.rtsarm.aem4f : Text.oem4f (.text:xdc_runtime_Text_putSite__E)
                   00003e46    00000002     empty_pem4f.oem4f (.text:free)
                   00003e48    00000098     Boot.aem4f : Boot.oem4f (.text:ti_catalog_arm_cortexm4_tiva_ce_Boot_sysCtlClockSet__E)
                   00003ee0    00000094     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_family_arm_m3_Hwi_initNVIC__E)
-                  00003f74    00000004     ti.targets.arm.rtsarm.aem4f : System.oem4f (.text:xdc_runtime_System_printf_va__F)
+                  00003f74    00000004     ti.targets.arm.rtsarm.aem4f : System.oem4f (.text:xdc_runtime_System_aprintf_va__F)
                   00003f78    00000090     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_knl_Task_Module_startup__E)
                   00004008    00000090                   : BIOS.obj (.text:ti_sysbios_utils_Load_startup__E)
                   00004098    00000090     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_initQueueDescriptor__E)
@@ -135,20 +134,20 @@ section   page    origin      length       input sections
                   00004311    00000001     --HOLE-- [fill = 0]
                   00004312    00000006     driverlib.lib : gpio.obj (.text:GPIOPinRead)
                   00004318    0000006c     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_knl_Swi_restoreHwi__E)
-                  00004384    00000002     empty_pem4f.oem4f (.text:ti_sysbios_BIOS_nullFunc__I)
-                  00004386    00000002     empty_pem4f.oem4f (.text:ti_uia_loggers_LoggerStopMode_setFilterLevel__E)
+                  00004384    00000004     ti.targets.arm.rtsarm.aem4f : System.oem4f (.text:xdc_runtime_System_printf_va__F)
                   00004388    0000006c     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_utils_Load_taskCreateHook__E)
                   000043f4    0000006c     ti.targets.arm.rtsarm.aem4f : Error.oem4f (.text:xdc_runtime_Error_print__E)
                   00004460    0000006c                                 : Memory.oem4f (.text:xdc_runtime_Memory_alloc__E)
                   000044cc    00000068     rtsv7M4_T_le_v4SPD16_eabi.lib : copy_decompress_lzss.obj (.text:decompress:lzss)
                   00004534    00000068     main.obj (.text:hardware_init)
                   0000459c    00000068     rtsv7M4_T_le_v4SPD16_eabi.lib : trgmsg.obj (.text)
-                  00004604    00000002     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_setPriority__E)
-                  00004606    00000002     empty_pem4f.oem4f (.text:xdc_runtime_Startup_reset__I)
+                  00004604    00000002     empty_pem4f.oem4f (.text:ti_sysbios_BIOS_nullFunc__I)
+                  00004606    00000002     empty_pem4f.oem4f (.text:ti_uia_loggers_LoggerStopMode_setFilterLevel__E)
                   00004608    00000068     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_utils_Load_addTask__E)
                   00004670    00000066     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_flush__E)
                   000046d6    00000066     ti.targets.arm.rtsarm.aem4f : Core-mem.oem4f (.text:xdc_runtime_Core_deleteObject__I)
-                  0000473c    00000004     --HOLE-- [fill = 0]
+                  0000473c    00000002     ti.uia.loggers.aem4f : LoggerStopMode.oem4f (.text:ti_uia_loggers_LoggerStopMode_setPriority__E)
+                  0000473e    00000002     empty_pem4f.oem4f (.text:xdc_runtime_Startup_reset__I)
                   00004740    00000064     sysbios.aem4f : BIOS.obj (.text:ti_sysbios_family_arm_lm4_Timer_Module_startup__E)
                   000047a4    00000060     driverlib.lib : timer.obj (.text:TimerConfigure)
                   00004804    00000004     --HOLE-- [fill = 0]
@@ -695,9 +694,9 @@ MODULE SUMMARY
        Module                     code    ro data   rw data
        ------                     ----    -------   -------
     .\
-       main.obj                   364     0         2      
+       main.obj                   368     0         2      
     +--+--------------------------+-------+---------+---------+
-       Total:                     364     0         2      
+       Total:                     368     0         2      
                                                            
     C:\ccs7\blink_TM4C_TASK\Debug\configPkg\package\cfg\
        empty_pem4f.oem4f          3114    9966      11182  
@@ -786,7 +785,7 @@ MODULE SUMMARY
        Stack:                     0       0         1024   
        Linker Generated:          0       683       0      
     +--+--------------------------+-------+---------+---------+
-       Grand Total:               24839   10757     12536  
+       Grand Total:               24843   10757     12536  
 
 
 LINKER GENERATED COPY TABLES
@@ -914,7 +913,7 @@ ffffffff  binit
 00005b01  ti_sysbios_BIOS_errorRaiseHook__I                                 
 00005e31  ti_sysbios_BIOS_exitFunc__I                                       
 00005f29  ti_sysbios_BIOS_getCpuFreq__E                                     
-00004385  ti_sysbios_BIOS_nullFunc__I                                       
+00004605  ti_sysbios_BIOS_nullFunc__I                                       
 000058bd  ti_sysbios_BIOS_registerRTSLock__I                                
 000058e1  ti_sysbios_BIOS_removeRTSLock__I                                  
 000059dd  ti_sysbios_BIOS_rtsLock__I                                        
@@ -1281,18 +1280,18 @@ e000e000  ti_sysbios_family_arm_m3_Hwi_nvic
 00005e5d  ti_uia_loggers_LoggerStopMode_enable__E                           
 00004671  ti_uia_loggers_LoggerStopMode_flush__E                            
 000024ad  ti_uia_loggers_LoggerStopMode_getContents__E                      
-00002d1d  ti_uia_loggers_LoggerStopMode_getFilterLevel__E                   
-000032c5  ti_uia_loggers_LoggerStopMode_getInstanceId__E                    
-00003385  ti_uia_loggers_LoggerStopMode_getMaxLength__E                     
-00003445  ti_uia_loggers_LoggerStopMode_getPriority__E                      
-00003505  ti_uia_loggers_LoggerStopMode_getTransferType__E                  
+000032c5  ti_uia_loggers_LoggerStopMode_getFilterLevel__E                   
+00003385  ti_uia_loggers_LoggerStopMode_getInstanceId__E                    
+00003445  ti_uia_loggers_LoggerStopMode_getMaxLength__E                     
+00003505  ti_uia_loggers_LoggerStopMode_getPriority__E                      
+000035bd  ti_uia_loggers_LoggerStopMode_getTransferType__E                  
 000050b5  ti_uia_loggers_LoggerStopMode_initBuffer__I                       
 00004099  ti_uia_loggers_LoggerStopMode_initQueueDescriptor__E              
 00005fd9  ti_uia_loggers_LoggerStopMode_isEmpty__E                          
 000088d8  ti_uia_loggers_LoggerStopMode_isTimestampEnabled__C               
 0000548d  ti_uia_loggers_LoggerStopMode_reset__E                            
-00004387  ti_uia_loggers_LoggerStopMode_setFilterLevel__E                   
-00004605  ti_uia_loggers_LoggerStopMode_setPriority__E                      
+00004607  ti_uia_loggers_LoggerStopMode_setFilterLevel__E                   
+0000473d  ti_uia_loggers_LoggerStopMode_setPriority__E                      
 00002df9  ti_uia_loggers_LoggerStopMode_write0__E                           
 00002a71  ti_uia_loggers_LoggerStopMode_write1__E                           
 00002b59  ti_uia_loggers_LoggerStopMode_write2__E                           
@@ -1326,7 +1325,7 @@ e000e000  ti_sysbios_family_arm_m3_Hwi_nvic
 00008810  xdc_runtime_Error_Module__loggerObj__C                            
 20002e24  xdc_runtime_Error_Module__state__V                                
 00005de9  xdc_runtime_Error_check__E                                        
-000035bd  xdc_runtime_Error_getSite__E                                      
+00003675  xdc_runtime_Error_getSite__E                                      
 0000610d  xdc_runtime_Error_init__E                                         
 000088de  xdc_runtime_Error_maxDepth__C                                     
 00001c6d  xdc_runtime_Error_policyDefault__E                                
@@ -1359,7 +1358,7 @@ e000e000  ti_sysbios_family_arm_m3_Hwi_nvic
 000013e9  xdc_runtime_HeapStd_alloc__E                                      
 00003a89  xdc_runtime_HeapStd_free__E                                       
 00006077  xdc_runtime_HeapStd_getStats__E                                   
-00003675  xdc_runtime_HeapStd_isBlocking__E                                 
+00003885  xdc_runtime_HeapStd_isBlocking__E                                 
 00008838  xdc_runtime_IFilterLogger_Interface__BASE__C                      
 0000883c  xdc_runtime_IGateProvider_Interface__BASE__C                      
 00008840  xdc_runtime_IHeap_Interface__BASE__C                              
@@ -1403,7 +1402,7 @@ e000e000  ti_sysbios_family_arm_m3_Hwi_nvic
 00008870  xdc_runtime_Startup_lastFxns__A                                   
 0000863c  xdc_runtime_Startup_lastFxns__C                                   
 00008874  xdc_runtime_Startup_maxPasses__C                                  
-00004607  xdc_runtime_Startup_reset__I                                      
+0000473f  xdc_runtime_Startup_reset__I                                      
 000085f4  xdc_runtime_Startup_sfxnRts__A                                    
 00008878  xdc_runtime_Startup_sfxnRts__C                                    
 00008410  xdc_runtime_Startup_sfxnTab__A                                    
@@ -1423,8 +1422,8 @@ e000e000  ti_sysbios_family_arm_m3_Hwi_nvic
 00006009  xdc_runtime_SysMin_ready__E                                       
 00005c6f  xdc_runtime_System_Module_GateProxy_Handle__label__S              
 00005a41  xdc_runtime_System_Module_GateProxy_Object__delete__S             
-00003885  xdc_runtime_System_Module_GateProxy_enter__E                      
-00003935  xdc_runtime_System_Module_GateProxy_leave__E                      
+00003935  xdc_runtime_System_Module_GateProxy_enter__E                      
+00003d0d  xdc_runtime_System_Module_GateProxy_leave__E                      
 000061b9  xdc_runtime_System_Module_GateProxy_query__E                      
 20002ce4  xdc_runtime_System_Module_State_0_atexitHandlers__A               
 00008888  xdc_runtime_System_Module__gateObj__C                             
@@ -1439,7 +1438,7 @@ e000e000  ti_sysbios_family_arm_m3_Hwi_nvic
 00004ba5  xdc_runtime_System_abortStd__E                                    
 00005c39  xdc_runtime_System_abort__E                                       
 00005d0b  xdc_runtime_System_aprintf__E                                     
-00003d0d  xdc_runtime_System_aprintf_va__F                                  
+00003f75  xdc_runtime_System_aprintf_va__F                                  
 000053b1  xdc_runtime_System_atexit__E                                      
 00005897  xdc_runtime_System_avprintf__E                                    
 00000471  xdc_runtime_System_doPrint__I                                     
@@ -1452,7 +1451,7 @@ e000e000  ti_sysbios_family_arm_m3_Hwi_nvic
 00008898  xdc_runtime_System_maxAtexitHandlers__C                           
 000026a1  xdc_runtime_System_printfExtend__I                                
 00005d25  xdc_runtime_System_printf__E                                      
-00003f75  xdc_runtime_System_printf_va__F                                   
+00004385  xdc_runtime_System_printf_va__F                                   
 000056e9  xdc_runtime_System_processAtExit__E                               
 000057f3  xdc_runtime_System_putchar__I                                     
 00005975  xdc_runtime_System_vprintf__E                                     
@@ -1546,7 +1545,6 @@ address   name
 00002a71  ti_uia_loggers_LoggerStopMode_write1__E                           
 00002b59  ti_uia_loggers_LoggerStopMode_write2__E                           
 00002c41  ledToggle                                                         
-00002d1d  ti_uia_loggers_LoggerStopMode_getFilterLevel__E                   
 00002d21  ti_sysbios_family_arm_lm4_TimestampProvider_get32__E              
 00002d21  xdc_runtime_Timestamp_SupportProxy_get32__E                       
 00002d21  xdc_runtime_Timestamp_get32__E                                    
@@ -1556,24 +1554,24 @@ address   name
 0000306d  xdc_runtime_HeapStd_Instance_init__E                              
 00003139  ti_sysbios_knl_Task_exit__E                                       
 00003201  ti_sysbios_utils_Load_logLoads__I                                 
-000032c5  ti_uia_loggers_LoggerStopMode_getInstanceId__E                    
+000032c5  ti_uia_loggers_LoggerStopMode_getFilterLevel__E                   
 000032c9  ti_sysbios_family_arm_m3_Hwi_excDebugMon__I                       
-00003385  ti_uia_loggers_LoggerStopMode_getMaxLength__E                     
+00003385  ti_uia_loggers_LoggerStopMode_getInstanceId__E                    
 00003389  ti_sysbios_family_arm_m3_Hwi_excHardFault__I                      
-00003445  ti_uia_loggers_LoggerStopMode_getPriority__E                      
+00003445  ti_uia_loggers_LoggerStopMode_getMaxLength__E                     
 00003449  ti_sysbios_knl_Task_unblockI__E                                   
-00003505  ti_uia_loggers_LoggerStopMode_getTransferType__E                  
+00003505  ti_uia_loggers_LoggerStopMode_getPriority__E                      
 00003509  ti_sysbios_gates_GateMutex_enter__E                               
-000035bd  xdc_runtime_Error_getSite__E                                      
+000035bd  ti_uia_loggers_LoggerStopMode_getTransferType__E                  
 000035c1  ti_sysbios_knl_Task_checkStacks__E                                
-00003675  xdc_runtime_HeapStd_isBlocking__E                                 
+00003675  xdc_runtime_Error_getSite__E                                      
 00003679  ti_sysbios_utils_Load_idleFxn__E                                  
 00003729  ti_sysbios_utils_Load_updateLoads__E                              
 00003729  ti_sysbios_utils_Load_update__E                                   
 000037d9  ti_sysbios_family_arm_lm4_Timer_enableTiva__I                     
-00003885  xdc_runtime_System_Module_GateProxy_enter__E                      
+00003885  xdc_runtime_HeapStd_isBlocking__E                                 
 00003889  ti_sysbios_knl_Swi_post__E                                        
-00003935  xdc_runtime_System_Module_GateProxy_leave__E                      
+00003935  xdc_runtime_System_Module_GateProxy_enter__E                      
 00003939  ti_sysbios_family_arm_lm4_Timer_enableTimers__I                   
 000039e1  ti_sysbios_knl_Task_blockI__E                                     
 00003a89  xdc_runtime_HeapStd_free__E                                       
@@ -1583,13 +1581,13 @@ address   name
 00003c71  __aeabi_memcpy4                                                   
 00003c71  __aeabi_memcpy8                                                   
 00003c71  memcpy                                                            
-00003d0d  xdc_runtime_System_aprintf_va__F                                  
+00003d0d  xdc_runtime_System_Module_GateProxy_leave__E                      
 00003d11  ti_sysbios_knl_Semaphore_Instance_init__E                         
 00003dad  xdc_runtime_Text_putSite__E                                       
 00003e47  free                                                              
 00003e49  ti_catalog_arm_cortexm4_tiva_ce_Boot_sysCtlClockSet__E            
 00003ee1  ti_sysbios_family_arm_m3_Hwi_initNVIC__E                          
-00003f75  xdc_runtime_System_printf_va__F                                   
+00003f75  xdc_runtime_System_aprintf_va__F                                  
 00003f79  ti_sysbios_knl_Task_Module_startup__E                             
 00004009  ti_sysbios_utils_Load_startup__E                                  
 00004099  ti_uia_loggers_LoggerStopMode_initQueueDescriptor__E              
@@ -1606,8 +1604,7 @@ address   name
 000042a5  xdc_runtime_System_formatNum__I                                   
 00004313  GPIOPinRead                                                       
 00004319  ti_sysbios_knl_Swi_restoreHwi__E                                  
-00004385  ti_sysbios_BIOS_nullFunc__I                                       
-00004387  ti_uia_loggers_LoggerStopMode_setFilterLevel__E                   
+00004385  xdc_runtime_System_printf_va__F                                   
 00004389  ti_sysbios_utils_Load_taskCreateHook__E                           
 000043f5  xdc_runtime_Error_print__E                                        
 00004461  xdc_runtime_Memory_alloc__E                                       
@@ -1616,11 +1613,13 @@ address   name
 0000459d  __TI_writemsg                                                     
 000045cb  C$$IO$$                                                           
 000045cf  __TI_readmsg                                                      
-00004605  ti_uia_loggers_LoggerStopMode_setPriority__E                      
-00004607  xdc_runtime_Startup_reset__I                                      
+00004605  ti_sysbios_BIOS_nullFunc__I                                       
+00004607  ti_uia_loggers_LoggerStopMode_setFilterLevel__E                   
 00004609  ti_sysbios_utils_Load_addTask__E                                  
 00004671  ti_uia_loggers_LoggerStopMode_flush__E                            
 000046d7  xdc_runtime_Core_deleteObject__I                                  
+0000473d  ti_uia_loggers_LoggerStopMode_setPriority__E                      
+0000473f  xdc_runtime_Startup_reset__I                                      
 00004741  ti_sysbios_family_arm_lm4_Timer_Module_startup__E                 
 000047a5  TimerConfigure                                                    
 00004809  ti_sysbios_family_arm_lm4_Timer_isrStub__E                        
